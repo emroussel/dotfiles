@@ -1,0 +1,60 @@
+{
+  "clock.dateFormat": "ddd HH:MM",
+  "editor.fontSize": 14,
+  // "editor.formatOnSave": true, // to enable Prettier format on save
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.rulers": [120],
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+  ],
+  "explorer.openEditors.visible": 0,
+  "html.format.endWithNewline": true,
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "prettier.printWidth": 120,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/coverage": true
+  },
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#c677dd",
+      "backgroundColor": "transparent"
+    },
+    {
+      "text": "FIXME:",
+      "color": "#c677dd",
+      "backgroundColor": "transparent"
+    }
+  ],
+  "window.zoomLevel": 0,
+  // Hides the left bar with the editor, extensions, etc.
+  "workbench.activityBar.visible": false,
+  "workbench.colorCustomizations": {
+    // Color of the active line number
+    "editorLineNumber.activeForeground": "#777D88",
+    // Color of line numbers
+    "editorLineNumber.foreground": "#4B5365",
+    // Color of the vertical line limiting characters
+    "editorRuler.foreground": "#abb2bf26"
+  },
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.editor.showIcons": false,
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.startupEditor": "none",
+  // Hides the feedback smiley in the bar at the bottom
+  "workbench.statusBar.feedback.visible": false
+}

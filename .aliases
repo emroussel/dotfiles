@@ -1,0 +1,5 @@
+# Silver searcher ignore
+alias ag='ag -p $HOME/.agignore'
+
+# Include custom aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
