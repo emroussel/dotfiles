@@ -27,6 +27,7 @@ declare -a EXTENSIONS=(
   octref.vetur # Vue tooling
   robinbentley.sass-indented # Sass syntax highlighting, auto-complete and snippets
   wayou.vscode-todo-highlight # Comment keyword highlighting
+  rafamel.subtle-brackets # Better styling of matching bracket
 )
 
 echo -e "\nInstalling VSCode extensions..."
