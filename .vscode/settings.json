@@ -4,6 +4,7 @@
   // "editor.formatOnSave": true, // to enable Prettier format on save
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
+  "editor.parameterHints": false,
   "editor.renderIndentGuides": false,
   "editor.rulers": [120],
   "editor.scrollBeyondLastLine": false,
