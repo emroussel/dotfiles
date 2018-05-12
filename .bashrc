@@ -1,6 +1,6 @@
 # nvm
 export NVM_DIR="$HOME/.nvm"
-[[ -f ~/.nvm/nvm.sh ]] && source "~/.nvm/nvm.sh"
+[[ -f ~/.nvm/nvm.sh ]] && . "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Git branch autocompletion
