@@ -1,5 +1,6 @@
 {
   "clock.dateFormat": "ddd HH:MM",
+  "editor.cursorBlinking": "blink",
   "editor.fontSize": 14,
   "editor.hover": false,
   // "editor.formatOnSave": true, // to enable Prettier format on save
@@ -52,12 +53,16 @@
   // Hides the left bar with the editor, extensions, etc.
   "workbench.activityBar.visible": false,
   "workbench.colorCustomizations": {
+    "editor.findMatchHighlightBackground": "#314166",
+    "editor.foreground": "#ABB2C0",
+    "editorWidget.border": "#373D48",
     // Color of the active line number
     "editorLineNumber.activeForeground": "#777D88",
     // Color of line numbers
     "editorLineNumber.foreground": "#4B5365",
     // Color of the vertical line limiting characters
-    "editorRuler.foreground": "#abb2bf26"
+    "editorRuler.foreground": "#abb2bf26",
+    "tab.activeForeground": "#D7DAE0"
   },
   "workbench.colorTheme": "Atom One Dark",
   "workbench.editor.showIcons": false,
