@@ -44,6 +44,11 @@
       "backgroundColor": "transparent"
     },
     {
+      "text": "NOTE:",
+      "color": "#c677dd",
+      "backgroundColor": "transparent"
+    },
+    {
       "text": "FIXME:",
       "color": "#c677dd",
       "backgroundColor": "transparent"
