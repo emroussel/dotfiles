@@ -2,7 +2,7 @@
   "clock.dateFormat": "ddd HH:MM",
   "editor.cursorBlinking": "blink",
   "editor.fontSize": 14,
-  "editor.hover": false,
+  "editor.hover.enabled": false,
   // "editor.formatOnSave": true, // to enable Prettier format on save
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
