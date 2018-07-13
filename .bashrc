@@ -11,3 +11,7 @@ source $HOME/.dotfiles/git/git-completion.sh
 
 # aliases
 [[ -f ~/.aliases ]] && source $HOME/.aliases
+
+# Krypton
+export GPG_TTY=$(tty)
+
