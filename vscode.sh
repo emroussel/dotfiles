@@ -22,7 +22,6 @@ declare -a EXTENSIONS=(
   formulahendry.auto-close-tag  # Automatically add HTML/XML close tag
   formulahendry.auto-rename-tag  # Auto rename paired HTML/XML tag
   kumar-harsh.graphql-for-vscode # GraphQL syntax highlighting, linting, and auto-complete
-  ms-vscode.js-atom-grammar # Atom's JavaScript syntax highlighting
   numso.prettier-standard-vscode # Prettier formatter with Standard rules
   octref.vetur # Vue tooling
   robinbentley.sass-indented # Sass syntax highlighting, auto-complete and snippets
