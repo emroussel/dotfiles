@@ -14,7 +14,7 @@ ln -sf "$DIR/.vscode/settings.json" ~/Library/Application\ Support/Code/User/set
 
 declare -a EXTENSIONS=(
   Compulim.vscode-clock # Displays a clock in the status bar
-  akamud.vscode-theme-onedark # One Dark Theme based on Atom
+  emroussel.atomize-atom-one-dark-theme # One Dark Theme based on Atom
   dbaeumer.vscode-eslint # JavaScript linter
   esbenp.prettier-vscode # Code formatter
   glen-84.sass-lint # Sass Lint
