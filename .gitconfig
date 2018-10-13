@@ -5,6 +5,6 @@
 	name = Emmanuel Roussel
 	email = emmanuel@emroussel.xyz
 [pretty]
-	lg = %C(red)%h%C(reset) %C(green)%cd%C(reset) %s %C(blue)<%an>%C(reset) %C(green)%cr%C(reset)%C(yellow)%d%C(reset)
+	lg = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
 [alias]
 	lg = log --date=format:'%d %b %Y %H:%M' --pretty=lg
