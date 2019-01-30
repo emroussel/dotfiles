@@ -28,7 +28,6 @@ brew 'yarn'
 brew 'python'
 
 # Apps
-cask 'atom'
 cask 'firefox'
 cask 'google-chrome'
 cask 'insomnia'
