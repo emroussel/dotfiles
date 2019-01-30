@@ -3,7 +3,6 @@
   "editor.cursorBlinking": "blink",
   "editor.fontSize": 14,
   "editor.hideCursorInOverviewRuler": true,
-  // "editor.formatOnSave": true, // to enable Prettier format on save
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
   "editor.occurrencesHighlight": false,
@@ -48,12 +47,10 @@
     }
   ],
   "window.zoomLevel": 0,
-  // Hides the left bar with the editor, extensions, etc.
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Atomize",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "none",
-  // Hides the feedback smiley in the bar at the bottom
   "workbench.statusBar.feedback.visible": false
 }
