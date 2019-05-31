@@ -26,6 +26,7 @@ declare -a EXTENSIONS=(
   robinbentley.sass-indented # Sass syntax highlighting, auto-complete and snippets
   wayou.vscode-todo-highlight # Comment keyword highlighting
   rafamel.subtle-brackets # Better styling of matching bracket
+  bungcip.better-toml # TOML language support
 )
 
 echo -e "\nInstalling VSCode extensions..."
