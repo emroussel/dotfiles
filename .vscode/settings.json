@@ -50,7 +50,7 @@
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Atomize",
   "workbench.editor.showIcons": false,
-  "workbench.iconTheme": "vs-minimal",
+  "workbench.iconTheme": "atom-icons",
   "workbench.startupEditor": "none",
   "workbench.statusBar.feedback.visible": false
 }
