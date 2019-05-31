@@ -2,6 +2,7 @@
   "clock.dateFormat": "ddd HH:MM",
   "editor.cursorBlinking": "blink",
   "editor.fontSize": 14,
+  "editor.formatOnSave": true,
   "editor.hideCursorInOverviewRuler": true,
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
