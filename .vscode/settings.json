@@ -1,4 +1,5 @@
 {
+  "breadcrumbs.enabled": false,
   "clock.dateFormat": "ddd HH:MM",
   "editor.cursorBlinking": "blink",
   "editor.fontSize": 14,
@@ -53,5 +54,5 @@
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": "atom-icons",
   "workbench.startupEditor": "none",
-  "workbench.statusBar.feedback.visible": false
+  "workbench.tree.renderIndentGuides": "none"
 }
