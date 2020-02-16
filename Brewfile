@@ -23,9 +23,7 @@ brew 'nvm'
 brew 'the_silver_searcher'
 brew 'wifi-password'
 brew 'yarn'
-
-# Languages
-brew 'python'
+brew 'pyenv'
 
 # Apps
 cask 'firefox'
