@@ -30,7 +30,7 @@ brew 'python'
 # Apps
 cask 'firefox'
 cask 'google-chrome'
-cask 'insomnia'
+cask 'postman'
 cask 'iterm2'
 cask 'java'
 cask 'kap'
