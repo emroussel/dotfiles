@@ -28,12 +28,14 @@ brew 'pyenv'
 # Apps
 cask 'firefox'
 cask 'google-chrome'
-cask 'postman'
 cask 'iterm2'
 cask 'java'
 cask 'kap'
+cask 'keybase'
 cask 'lastpass'
+cask 'postman'
 cask 'sequel-pro'
+cask 'slack'
 cask 'sketch'
 cask 'spotify'
 cask 'visual-studio-code'
@@ -48,5 +50,4 @@ cask 'quicklook-csv'
 cask 'quicklook-json'
 
 # Install Mac App Store apps
-mas 'Slack', id: 803453959
 mas 'Xcode', id: 497799835
