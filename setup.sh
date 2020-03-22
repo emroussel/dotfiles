@@ -23,7 +23,7 @@ echo "done"
 
 # Warn user this script will overwrite current dotfiles
 while true; do
-  read -p "Warning: this will overwrite your current dotfiles. Continue? [y/n] " yn
+  read "?Warning: this will overwrite your current dotfiles. Continue? [y/n] " yn
   case $yn in
     [Yy]* ) break;;
     [Nn]* ) exit;;
@@ -37,6 +37,7 @@ declare -a FILES_TO_SYMLINK=(
   '.bashrc'
   '.bash_profile'
   '.gitconfig'
+  '.zshrc'
 )
 
 # Move any existing dotfiles in homedir to .dotfiles_old directory, then create
@@ -51,14 +52,18 @@ done
 echo "done"
 
 echo "Symlinking dotfiles to the home directory"
-ln -sf $DIR/.nvm/default-packages ~/.nvm
+mkdir -p ~/.nvm
+mkdir -p ~/.zsh
+ln -sf $DIR/.nvm/default-packages ~/.nvm/default-packages
+ln -sf $DIR/git/git-completion.bash ~/.zsh/git-completion.bash
+ln -sf $DIR/git/git-comopletion.zsh ~/.zsh/git-comopletion.zsh
 for i in ${FILES_TO_SYMLINK[@]}; do
   ln -sf "$DIR/$i" ~
 done
 echo "done"
 
 # If we are on Mac
-if [ "$(uname)" == "Darwin" ]; then
+if [[ "$(uname)" == "Darwin" ]]; then
   . "$DIR/brew.sh"
   . "$DIR/macos.sh"
 fi

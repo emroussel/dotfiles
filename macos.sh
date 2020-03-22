@@ -184,4 +184,5 @@ for app in "Dock" \
 	"SystemUIServer"; do
 	killall "${app}" &> /dev/null
 done
-echo  -e "\nDone. Note that some of these changes require a logout/restart to take effect."
+echo -e "\nDone"
+echo -e "\nNote that some of these changes require a logout/restart to take effect."
