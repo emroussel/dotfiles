@@ -4,7 +4,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Git branch autocompletion
-source $HOME/.dotfiles/git/git-completion.sh
+source $HOME/.dotfiles/git/git-completion.bash
 
 # Local config
 [[ -f ~/.bashrc.local ]] && source $HOME/.bashrc.local
