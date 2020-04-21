@@ -54,6 +54,19 @@ defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 ###############################################################################
+# Energy saving                                                               #
+###############################################################################
+
+# Enable lid wakeup
+sudo pmset -a lidwake 1
+
+# Sleep the display after 15 minutes
+sudo pmset -a displaysleep 15
+
+# Set machine sleep to 5 minutes on battery
+sudo pmset -b sleep 5
+
+###############################################################################
 # Date & Time                                                                 #
 ###############################################################################
 
