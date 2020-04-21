@@ -39,6 +39,7 @@ cask 'sketch'
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'zoomus'
 
 # Quicklook
 cask 'qlcolorcode'
