@@ -1,11 +1,15 @@
 {
   "breadcrumbs.enabled": false,
   "clock.dateFormat": "ddd HH:MM",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.cursorBlinking": "blink",
+  "editor.folding": false,
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
   "editor.occurrencesHighlight": false,
   "editor.renderIndentGuides": false,
@@ -13,7 +17,6 @@
   "editor.rulers": [120],
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
-  "eslint.autoFixOnSave": true,
   "explorer.decorations.colors": false,
   "explorer.openEditors.visible": 0,
   "html.format.endWithNewline": true,
