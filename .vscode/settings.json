@@ -15,6 +15,7 @@
   "editor.renderIndentGuides": false,
   "editor.roundedSelection": false,
   "editor.rulers": [120],
+  "editor.selectionHighlight": false,
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
   "explorer.decorations.colors": false,
