@@ -20,3 +20,10 @@ fpath=(~/.zsh $fpath)
 # Krypton
 export GPG_TTY=$(tty)
 
+export PATH="/usr/local/sbin:$PATH"
+
+# Make command + backspace (0x15) delete everything left to the cursor rather than the whole line
+bindkey "^U" backward-kill-line
+
+# Adds redo
+bindkey "^X^_" redo
