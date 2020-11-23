@@ -4,14 +4,15 @@
 sudo -v
 
 # Check for Homebrew and install if we don't have it
-if test ! $(which brew); then
+which -s brew
+if [[ $? != 0 ]]; then
   echo "Installing Homebrew..."
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+else
+  # Update Homebrew recipes
+  echo "Updating brew..."
+  brew update
 fi
-
-# Update Homebrew recipes
-echo "Updating brew..."
-brew update
 
 # Upgrade any already-installed formulae
 echo "Upgrading installed formulas..."
