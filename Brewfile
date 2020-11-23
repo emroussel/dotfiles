@@ -26,6 +26,7 @@ brew 'yarn'
 # Apps
 cask 'firefox'
 cask 'google-chrome'
+cask 'figma'
 cask 'iterm2'
 cask 'kap'
 cask 'keybase'
