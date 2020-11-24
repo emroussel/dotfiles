@@ -3,8 +3,10 @@
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [user]
 	name = Emmanuel Roussel
-	email = emmanuel@emroussel.xyz
+	email = emmanuel@emroussel.com
 [pretty]
 	lg = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
 [alias]
 	lg = log --date=format:'%d %b %Y %H:%M' --pretty=lg
+[pull]
+	ff = only
