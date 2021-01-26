@@ -7,7 +7,7 @@ if [ ! "$(which code)" ]; then
 fi
 
 # Get current dir (so run this script from anywhere)
-DIR="$( cd "$(dirname "$0")" ; pwd -P )"
+DIR="$(cd "$(dirname "$1")"; pwd -P)/$(basename "$1")"
 
 echo -e "\nSymlinking Visual Studio Code settings..."
 ln -sf "$DIR/.vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json

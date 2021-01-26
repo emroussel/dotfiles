@@ -23,7 +23,8 @@ echo "done"
 
 # Warn user this script will overwrite current dotfiles
 while true; do
-  read "?Warning: this will overwrite your current dotfiles. Continue? [y/n] " yn
+  echo "Warning: this will overwrite your current dotfiles. Continue? [y/n] "
+  read yn
   case $yn in
     [Yy]* ) break;;
     [Nn]* ) exit;;
