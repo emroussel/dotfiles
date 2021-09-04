@@ -16,6 +16,7 @@ brew 'grep'
 brew 'wget'
 
 # Install Binaries
+brew 'ffmpeg'
 brew 'git'
 brew 'git-extras'
 brew 'mas'                  # Mac App Store CLI
