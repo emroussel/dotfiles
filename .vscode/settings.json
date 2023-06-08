@@ -14,7 +14,7 @@
   "editor.occurrencesHighlight": false,
   "editor.renderIndentGuides": false,
   "editor.roundedSelection": false,
-  "editor.rulers": [120],
+  "editor.rulers": [80],
   "editor.selectionHighlight": false,
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
@@ -22,7 +22,6 @@
   "explorer.openEditors.visible": 0,
   "html.format.endWithNewline": true,
   "markdown.extension.preview.autoShowPreviewToSide": true,
-  "prettier.printWidth": 120,
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
@@ -58,5 +57,32 @@
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": "atom-icons",
   "workbench.startupEditor": "none",
-  "workbench.tree.renderIndentGuides": "none"
+  "workbench.tree.renderIndentGuides": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
