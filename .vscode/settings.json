@@ -6,7 +6,7 @@
   },
   "editor.cursorBlinking": "blink",
   "editor.folding": false,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.guides.indentation": false,
   "editor.hideCursorInOverviewRuler": true,
@@ -52,7 +52,7 @@
       "backgroundColor": "transparent"
     }
   ],
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Atomize",
   "workbench.editor.showIcons": false,
