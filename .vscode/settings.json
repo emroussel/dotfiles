@@ -2,25 +2,23 @@
   "breadcrumbs.enabled": false,
   "clock.dateFormat": "ddd HH:MM",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.cursorBlinking": "blink",
   "editor.folding": false,
   "editor.fontSize": 13,
-  "editor.formatOnSave": true,
   "editor.guides.indentation": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
-  "editor.occurrencesHighlight": false,
-  "editor.renderIndentGuides": false,
+  "editor.occurrencesHighlight": "off",
   "editor.roundedSelection": false,
   "editor.rulers": [80],
   "editor.selectionHighlight": false,
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
   "explorer.decorations.colors": false,
-  "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 1,
   "html.format.endWithNewline": true,
   "markdown.extension.preview.autoShowPreviewToSide": true,
   "search.exclude": {
@@ -53,7 +51,6 @@
     }
   ],
   "window.zoomLevel": 1,
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Atomize",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": "atom-icons",

@@ -16,17 +16,15 @@ declare -a EXTENSIONS=(
   Compulim.vscode-clock # Displays a clock in the status bar
   emroussel.atomize-atom-one-dark-theme # One Dark Theme based on Atom
   emroussel.atom-icons # Atom icons theme
-  dbaeumer.vscode-eslint # JavaScript linter
+  dbaeumer.vscode-eslint # Eslint
   esbenp.prettier-vscode # Code formatter
-  glen-84.sass-lint # Sass Lint
   ionutvmi.path-autocomplete # Provides file path completion
-  formulahendry.auto-close-tag  # Automatically add HTML/XML close tag
-  formulahendry.auto-rename-tag  # Auto rename paired HTML/XML tag
   kumar-harsh.graphql-for-vscode # GraphQL syntax highlighting, linting, and auto-complete
-  robinbentley.sass-indented # Sass syntax highlighting, auto-complete and snippets
   wayou.vscode-todo-highlight # Comment keyword highlighting
   rafamel.subtle-brackets # Better styling of matching bracket
   bungcip.better-toml # TOML language support
+  bradlc.vscode-tailwindcss # Tailwind CSS IntelliSense
+  ms-python.python # Python support
 )
 
 echo -e "\nInstalling VSCode extensions..."
