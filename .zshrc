@@ -40,8 +40,12 @@ fpath=(~/.zsh $fpath)
 
 export PATH="/usr/local/sbin:$PATH"
 
-# Make command + backspace (0x15) delete everything left to the cursor rather than the whole line
-bindkey "^U" backward-kill-line
-
-# Adds redo
-bindkey "^X^_" redo
+# keybindings
+bindkey "^_" undo # cmd + z
+bindkey "^X^_" redo # cmd + shift + z
+bindkey "^A" beginning-of-line # cmd + ←
+bindkey "^E" end-of-line # cmd + →
+bindkey "^[b" backward-word # opt + ←
+bindkey "^[f" forward-word # opt + →
+bindkey "^U" backward-kill-line # cmd + backspace
+bindkey "^[^H" backward-kill-word # opt + backspace
