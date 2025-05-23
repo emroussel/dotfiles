@@ -29,7 +29,7 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 # Git autocompletion
-zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.zsh
 fpath=(~/.zsh $fpath)
 
 # Local config
